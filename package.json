@@ -1,6 +1,6 @@
 {
   "name": "cogs-transformer-scss-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Casey Foster <c@sey.me>",
   "description": "An scss-lint transformer for Cogs.",
   "license": "MIT",

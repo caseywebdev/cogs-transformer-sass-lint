@@ -1,0 +1,12 @@
+{
+  "in": {
+    "scss": {
+      "transformers": {
+        "name": ".",
+        "options": {
+          "args": ["--config=does-not-exist.yml"]
+        }
+      }
+    }
+  }
+}

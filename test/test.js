@@ -26,5 +26,8 @@ helper.run({
     },
     'test/error.scss': Error,
     'test/error2.scss': Error
+  },
+  'test/bad-config.json': {
+    'test/clean.scss': Error
   }
 });
