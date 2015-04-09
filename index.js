@@ -8,7 +8,7 @@ var DEFAULT = {
 module.exports = function (file, options, cb) {
   var scssLint = spawn(
     options.bin || DEFAULT.bin,
-    (options.args || DEFAULT.args).concat(['--format=JSON', file.path])
+    (options.args || DEFAULT.args).concat('--format=JSON', file.path)
   );
   var stdout = '';
   var stderr = '';
@@ -26,10 +26,11 @@ module.exports = function (file, options, cb) {
 
     // Try to parse the JSON output and report the first lint with error
     // severity. If this fails, just error with the raw stdout.
+    var ers, i, l, er;
     try {
-      var ers = JSON.parse(stdout)[file.path];
-      for (var i = 0, l = ers.length; i < l; ++i) {
-        var er = ers[i];
+      ers = JSON.parse(stdout)[file.path];
+      for (i = 0, l = ers.length; i < l; ++i) {
+        er = ers[i];
         if (er.severity !== 'error') continue;
         return cb(new Error(
           file.path + ': line ' + er.line + ', column ' + er.column + ', ' +
