@@ -1,4 +1,0 @@
-linters:
-  Indentation:
-    severity: error
-    width: 2

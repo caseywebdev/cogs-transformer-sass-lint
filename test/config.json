@@ -1,7 +1,1 @@
-{
-  "in": {
-    "scss": {
-      "transformers": "."
-    }
-  }
-}
+{"pipe": {"name": ".", "only": "**/*.s+(a|c)ss"}}

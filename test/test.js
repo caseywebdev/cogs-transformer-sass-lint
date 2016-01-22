@@ -13,21 +13,18 @@ helper.run({
       links: [],
       globs: []
     },
-    'test/warn.scss': {
-      path: 'test/warn.scss',
-      buffer: helper.getFileBuffer('test/warn.scss'),
-      hash: helper.getFileHash('test/warn.scss'),
+    'test/warn.sass': {
+      path: 'test/warn.sass',
+      buffer: helper.getFileBuffer('test/warn.sass'),
+      hash: helper.getFileHash('test/warn.sass'),
       requires: [{
-        path: 'test/warn.scss',
-        hash: helper.getFileHash('test/warn.scss')
+        path: 'test/warn.sass',
+        hash: helper.getFileHash('test/warn.sass')
       }],
       links: [],
       globs: []
     },
     'test/error.scss': Error,
     'test/error2.scss': Error
-  },
-  'test/bad-config.json': {
-    'test/clean.scss': Error
   }
 });

@@ -1,15 +1,19 @@
 {
-  "name": "cogs-transformer-scss-lint",
-  "version": "1.0.1",
+  "name": "cogs-transformer-sass-lint",
+  "version": "1.0.0",
   "author": "Casey Foster <c@sey.me>",
-  "description": "An scss-lint transformer for Cogs.",
+  "description": "A sass-lint transformer for Cogs.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caseywebdev/cogs-transformer-scss-lint"
+    "url": "https://github.com/caseywebdev/cogs-transformer-sass-lint"
+  },
+  "dependencies": {
+    "sass-lint": "1.4.0",
+    "underscore": "1.8.3"
   },
   "devDependencies": {
-    "cogs-test-helper": "1.0.4"
+    "cogs-test-helper": "2.x"
   },
   "scripts": {
     "test": "cogs-test-helper test/test.js"

@@ -1,0 +1,7 @@
+options:
+  merge-default-rules: false
+files:
+  include: 'sass/**/*.s+(a|c)ss'
+rules:
+  no-ids: 2
+  no-important: 1

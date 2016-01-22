@@ -1,9 +1,9 @@
-# cogs-transformer-scss-lint
+# cogs-transformer-sass-lint
 
-An [scss-lint] validator for [Cogs].
+A [sass-lint] validator for [Cogs].
 
-[![Build Status]](http://travis-ci.org/caseywebdev/cogs-transformer-scss-lint)
+[![Build Status]](http://travis-ci.org/caseywebdev/cogs-transformer-sass-lint)
 
-[scss-lint]: https://github.com/brigade/scss-lint
+[sass-lint]: https://github.com/sasstools/sass-lint
 [Cogs]: https://github.com/caseywebdev/cogs
-[Build Status]: https://secure.travis-ci.org/caseywebdev/cogs-transformer-scss-lint.png
+[Build Status]: https://secure.travis-ci.org/caseywebdev/cogs-transformer-sass-lint.png
